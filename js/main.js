@@ -184,9 +184,9 @@
 // }
 
 
-function student(  age,  lastname, firstname, status = "Active"){
-    console.log(`Hello! My name is ${firstname} ${lastname}. I am ${age} years old. My student status is ${status}.`)
-}
+// function student(  age,  lastname, firstname, status = "Active"){
+//     console.log(`Hello! My name is ${firstname} ${lastname}. I am ${age} years old. My student status is ${status}.`)
+// }
 
 
 // student("Aydinli","Ibrahim",13, "Deactive")
@@ -194,42 +194,42 @@ function student(  age,  lastname, firstname, status = "Active"){
 // student("Babayev","Murad",13)
 
 
-function get_data(){
+// function get_data(){
 
-    db_username = "hunt"
-    db_password = "tester123"
+//     db_username = "hunt"
+//     db_password = "tester123"
 
-    let username = document.getElementById('username')
-    let password = document.getElementById('password')
+//     let username = document.getElementById('username')
+//     let password = document.getElementById('password')
 
   
-    if(username.value === db_username && password.value === db_password){
-        alert(`Welcome ${username.value}`)
-    }else{
-        alert("Username or password is wrong!")
-    }
+//     if(username.value === db_username && password.value === db_password){
+//         alert(`Welcome ${username.value}`)
+//     }else{
+//         alert("Username or password is wrong!")
+//     }
 
-}
+// }
 
 
-function get_user(){
+// function get_user(){
 
-    let username = document.getElementById('username')
+//     let username = document.getElementById('username')
     
-    switch(username.value.toLowerCase()) {
-        case "rza":
-            document.body.style.backgroundImage = "url('https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/56073/article_full%403x.jpg')"
-            document.body.style.backgroundSize = "cover"
-            break;
-        case "nurjan":
-        case "nurcan":
-            document.body.style.backgroundImage = "url('https://cdn.vox-cdn.com/thumbor/sDeJryk6-bbcZPf6bCiMFEujaS0=/1200x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/6401113/c42ac6a0c2aaee69c79955d1d32c54b4_large.0.jpeg')"
-            document.body.style.backgroundSize = "cover"
-            break;
-        default:
-            document.body.style.background = "white"
-    }
-}
+//     switch(username.value.toLowerCase()) {
+//         case "rza":
+//             document.body.style.backgroundImage = "url('https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/56073/article_full%403x.jpg')"
+//             document.body.style.backgroundSize = "cover"
+//             break;
+//         case "nurjan":
+//         case "nurcan":
+//             document.body.style.backgroundImage = "url('https://cdn.vox-cdn.com/thumbor/sDeJryk6-bbcZPf6bCiMFEujaS0=/1200x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/6401113/c42ac6a0c2aaee69c79955d1d32c54b4_large.0.jpeg')"
+//             document.body.style.backgroundSize = "cover"
+//             break;
+//         default:
+//             document.body.style.background = "white"
+//     }
+// }
 
 
 
