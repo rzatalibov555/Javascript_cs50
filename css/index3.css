@@ -1,0 +1,15 @@
+div{
+    width: 200px;
+    height: 200px;
+    background: grey;
+    float: left;
+    margin: 5px;
+}
+
+.red{
+    background: red;
+}
+
+.green{
+    background: green;
+}
