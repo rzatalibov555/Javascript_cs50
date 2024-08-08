@@ -65,16 +65,22 @@
 // console.log(`Menim adim ${school[0][0]}dir. Men ${school[2][1]} sinifinde oxuyurdum. Men ${olkeler[0][0]}liyam.`)
 
 
-let months1 = ["Jan", "Feb", "Mar", "Apr"];
-console.log(months1)
+// let months1 = ["Jan", "Feb", "Mar", "Apr"];
+// console.log(months1)
 
-let chernovik = months1.toSorted()
-console.log(chernovik)
-
-
+// let chernovik = months1.toSorted()
+// console.log(chernovik)
 
 
+// const para = document.createElement("p");
+// // const para2 = document.createElement("p");
+// para.innerText = "Ibo";
+// // para2.innerText = "Xaliq";
+// document.getElementsByTagName("DIV")[0].appendChild(para);
+// document.getElementsByTagName("DIV")[3].appendChild(para);
 
+const my_text = document.createTextNode("Nurcan")
+document.body.appendChild(my_text)
 
 
 
